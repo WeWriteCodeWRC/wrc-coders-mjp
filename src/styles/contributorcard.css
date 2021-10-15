@@ -1,0 +1,36 @@
+.container {
+  margin-top: 50px;
+  padding: 50px;
+}
+.card {
+  height: 400px;
+  width: 275px;
+  background-color: #ffd54f;
+  transition: ease-in-out 0.2s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  margin-top: 40px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffd54f;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: ease-in 0.2s;
+}
+.avatar:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
