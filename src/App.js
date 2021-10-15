@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../src/styles/main.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
     fetchyFetch();
   });
   return (
-    <div>
+    <div className="App">
       <Header />
-      Hello
+      <Footer />
     </div>
   );
 }

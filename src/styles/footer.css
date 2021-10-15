@@ -1,0 +1,23 @@
+.footer-main {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: #3e50b4;
+  box-shadow: rgba(48, 48, 48, 0.56) 0px 15px 50px 4px;
+  text-align: center;
+}
+.text {
+  padding-top: 10px;
+}
+.yellow {
+  color: #ffd54f;
+}
+.red {
+  color: #ef5350;
+}
