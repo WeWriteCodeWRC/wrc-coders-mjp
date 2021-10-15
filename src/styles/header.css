@@ -33,3 +33,6 @@ a {
 .github-logo:hover {
   color: black;
 }
+.logo {
+  width: 40px;
+}
