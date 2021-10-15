@@ -3,7 +3,6 @@ a {
   color: black;
 }
 .header-main {
-  /* margin-bottom: 50px; */
   position: fixed;
   top: 0px;
   width: 100%;
@@ -21,18 +20,23 @@ a {
   list-style: none;
 }
 .nav-item {
-  padding: 15px;
+  margin: 10px;
 }
 
 .github-logo {
-  font-size: 30px;
+  font-size: 25px;
   color: #37474f;
   transition: ease-in-out 0.4s;
 }
 
 .github-logo:hover {
-  color: black;
+  color: #253136;
 }
 .logo {
   width: 40px;
+}
+
+.hacktober {
+  font-size: 24px;
+  color: #37474f;
 }

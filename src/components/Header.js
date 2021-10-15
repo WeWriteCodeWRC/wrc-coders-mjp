@@ -9,6 +9,14 @@ const Header = () => {
         <li className="nav-item">
           <img className="logo" src={logo} alt="Logo"></img>
         </li>
+        <li className="hacktober">
+          <a
+            className="hacktober"
+            href="https://hacktoberfest.digitalocean.com/"
+          >
+            <b>HacktoberFest</b> 2021
+          </a>
+        </li>
         <li className="nav-item">
           <a
             className="github-logo"
