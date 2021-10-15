@@ -29,8 +29,7 @@
   height: 140px;
   border-radius: 50%;
   background-color: #ffd54f;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 19px,
-    rgba(0, 0, 0, 0.22) 0px 7.5px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px, rgba(0, 0, 0, 0.22) 0px 3.5px 6px;
   transition: ease-in 0.2s;
 }
 .avatar:hover {
