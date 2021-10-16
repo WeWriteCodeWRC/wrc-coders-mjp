@@ -18,5 +18,3 @@ git checkout -b anupraj
 {% include rohit.md %}
 {% include ayush.md %}
 {% include 04-yash.md %}
-{% include 07-vivekgupta.md %}
-
