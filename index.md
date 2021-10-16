@@ -2,11 +2,7 @@
 
 **HacktoberFest** 2021
 
----
-
 {% include 01-admin.md %}
-
----
 
 ### Our Contributors
 
