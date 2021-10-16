@@ -4,6 +4,12 @@
 
 ### Our Admin
 
+---
+
 {% include 01-admin.md %}
 
+---
+
 ### Our Contributors
+
+---
