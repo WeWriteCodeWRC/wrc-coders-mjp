@@ -3,8 +3,8 @@
 **HacktoberFest** 2021
 
 {% include 01-admin.md %}
-{% include ayush.md %}
+
 
 ### Our Contributors
-
+{% include ayush.md %}
 ---
