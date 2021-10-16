@@ -1,20 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../src/styles/main.css";
 import Card from "./components/ContributorCard";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
-  useEffect(() => {
-    const fetchyFetch = async () => {
-      let data = await fetch(
-        "https://api.github.com/repos/rosekamallove/wrc-coders-mjp/contributors"
-      );
-      let realData = await data.json();
-      console.log(realData);
-    };
-    fetchyFetch();
-  });
+  const apiEndPoint =
+    "https://api.github.com/repos/rosekamallove/wrc-coders-mjp/contributors";
+
   return (
     <div className="App">
       <Header />
